@@ -1,0 +1,85 @@
+body {}
+
+.AllLabelCaption {
+    font-family: Arial Black;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #E6E6E6;
+}
+
+.AllLabelHeader {
+    font-family: Arial Black;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #E6E6E6;
+}
+
+.Mandatory {
+    font-family: Arial Black;
+    font-size: 10pt;
+    color: #EE0033;
+    font-weight: bold;
+}
+
+.SimpleDropdown {
+    height: 22px;
+}
+
+.rwHeight {
+    height: 30px;
+}
+
+.rwHeightInPanelTable {
+    height: 25px;
+}
+
+.GridViewAlternate {
+    background-color: #e8e8e8;
+    font-family: Sans-Serif;
+    color: Black;
+    clear: both;
+    font-size: 12px;
+    height: 15px;
+}
+
+.GridviewRow {
+    border-color: Black;
+    height: 15px;
+    font-family: Sans-Serif;
+    color: Black;
+    clear: both;
+    font-size: 12px;
+}
+
+.tdBottom {
+    border-bottom: #E6E6E6 1px solid;
+}
+
+.RowHeight {
+    height: 30px;
+}
+
+.loginInputText {
+    width: 140px;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: normal;
+    border: #999999 1px solid;
+    height: 19px;
+    background-repeat: repeat;
+    background-color: Transparent;
+    background-image: url(./images/bg.gif);
+    color: #595959;
+}
+
+.aspButton {
+    background-color: Transparent;
+    color: #595959;
+    border: 0;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: normal;
+    height: 27px;
+    background-image: url(./images/bgBtn.GIF);
+    width: 97px;
+}
