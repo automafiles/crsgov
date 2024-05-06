@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Printer</title>
+<script>
+    window.onload = function() {
+        var cookies = document.cookie.split(';');
+        var cookieList = document.getElementById('cookieList');
+        for(var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i].trim();
+            var cookieParts = cookie.split('=');
+            var li = document.createElement('li');
+            li.textContent = cookieParts[0] + ': ' + decodeURIComponent(cookieParts[1]);
+            cookieList.appendChild(li);
+        }
+    };
+</script>
+</head>
+<body>
+<h1>All Cookies</h1>
+<ul id="cookieList"></ul>
+</body>
+</html>
