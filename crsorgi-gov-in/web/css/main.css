@@ -1,0 +1,317 @@
+.btn {
+    background: url(../images/btn-bg.gif) repeat-x;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0px 4px 2px 4px;
+    width: 135px;
+    height: 22px;
+}
+
+.btn-appr {
+    background: red;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0px 4px 2px 4px;
+    width: 135px;
+    height: 22px;
+}
+
+.btn-big {
+    background: url(../images/btn-bg.gif) repeat-x;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 2px 4px 27px 4px;
+    width: auto;
+    height: 19px;
+}
+
+.btn-big a {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn a {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#religen_radio ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#village_radio .radio_list li {
+    float: left;
+    width: 83px;
+    margin-bottom: 5px;
+}
+
+#village_radio ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#religen_radio .radio_list li {
+    float: left;
+    width: 83px;
+    margin-bottom: 5px;
+}
+
+.GNI {
+    background: url(../images/refresh1.png) no-repeat left center;
+    display: block;
+    height: 17px;
+    width: 16px;
+    padding-left: 0px;
+    margin: -25px 0 10px 165px;
+    line-height: 15px;
+}
+
+.errMsgContainer {
+    position: relative;
+    z-index: 8;
+    bottom: 0px;
+    left: 0;
+    height: 1px;
+    float: left;
+}
+
+.errMsgContainer .toolTip {
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+    left: 24px;
+    color: #282828;
+}
+
+.toolTip .txt2 {
+    background-color: #fffbcb;
+    border: 1px solid #f57d10;
+    padding: 2px 4px;
+    line-height: 15px;
+    font-size: 11px;
+    color: #ff0000;
+    white-space: nowrap;
+    min-width: 170px;
+    width: 170px;
+    width: auto;
+    text-align: left;
+}
+
+.toolTip .arrow {
+    background: url(../images/tooltip-arrow.gif) no-repeat 10px bottom;
+    height: 6px;
+    margin-top: -1px;
+    width: 100px;
+    float: left;
+}
+
+div.error {
+    position: relative;
+    z-index: 8;
+    bottom: 0px;
+    left: 0;
+    height: 1px;
+    width: 1px;
+}
+
+div.error .toolTip_report {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    top: -48px;
+    left: 129px;
+    color: #282828;
+}
+
+div.error .toolTip_report .txt2 {
+    background-color: #fffbcb;
+    border: 1px solid #f57d10;
+    padding: 2px 4px;
+    line-height: 15px;
+    font-size: 11px;
+    color: #ff0000;
+    white-space: nowrap;
+    min-width: 155px;
+    width: 170px;
+    width: auto;
+    text-align: left;
+    float: left;
+    font-weight: normal !important;
+}
+
+div.error .arrow_report {
+    background: url(../images/tooltip-arrow.gif) no-repeat 10px bottom;
+    height: 5px;
+    margin-top: 21px;
+    width: 100px;
+}
+
+div.error .toolTip {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    left: 24px;
+    color: #282828;
+}
+
+div.error .toolTip .txt2 {
+    background-color: #fffbcb;
+    border: 1px solid #f57d10;
+    padding: 2px 4px;
+    line-height: 15px;
+    font-size: 11px;
+    color: #ff0000;
+    white-space: nowrap;
+    min-width: 155px;
+    width: 170px;
+    width: auto;
+    text-align: left;
+    float: left;
+    font-weight: normal !important;
+}
+
+div.error .arrow {
+    background: url(../images/tooltip-arrow.gif) no-repeat 10px bottom;
+    height: 5px;
+    margin-top: -1px;
+    width: 100px;
+}
+
+.successMsg {
+    text-align: center;
+    padding-bottom: 10px;
+    color: green;
+    font-size: 12px;
+}
+
+.errorMsg {
+    text-align: center;
+    padding-bottom: 10px;
+    color: red;
+    font-size: 12px;
+}
+
+.SubmitBtn {
+    width: 72px;
+    height: 26px;
+    background: url(../images/submit-btn.jpg) no-repeat;
+    border: none;
+}
+
+.linkTO {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.certificate-border-normal-div {
+    border: 1.5px solid #636363;
+    width: 760px;
+    margin: 10px auto;
+    float: left;
+    padding: 5px;
+}
+
+.certificate-border-bold-div {
+    border: 3px solid #636363;
+    width: 753px;
+    float: left;
+}
+
+.top {
+    width: 747px;
+    float: left;
+}
+
+.top-left {
+    float: left;
+    width: 58px;
+    height: 70px;
+    margin: 6px 6px 6px 6px;
+}
+
+.top-midd {
+    float: left;
+    width: 520px;
+    border: 0px solid red;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.top-right {
+    float: right;
+    width: 73px;
+    height: 63px;
+    margin: 6px 6px 6px 6px;
+}
+
+.certificate-title-div {
+    font-weight: bold;
+    width: auto;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.content {
+    width: 600px;
+}
+
+.content p {
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.label-box {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.label-green {
+    color: #008000;
+    font-weight: bold;
+}
+
+.label-black {
+    color: #5F5F5F;
+    font-weight: bold;
+}
+
+.label-blue {
+    color: #009EC0;
+    font-weight: bold;
+}
+
+.label-orange {
+    color: #FFA500;
+    font-weight: bold;
+}
