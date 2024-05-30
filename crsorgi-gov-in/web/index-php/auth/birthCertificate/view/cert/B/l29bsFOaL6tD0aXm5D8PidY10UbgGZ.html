@@ -1,0 +1,1218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hi" lang="hi">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="Civil Registration System" />
+    <title>Civil Registration System</title>
+    <link rel="shortcut icon" href="https://crsorgi.gov.in/web/images//favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../../../../web/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../../../../web/css/default.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../../../../web/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../../../../web/css/jquery.ui.all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../../../../web/css/jquery-ui-1.10.0.custom.css" />
+    <script type="text/javascript" src="../../../../../../../web/js/mm_menu.js"></script>
+    <script type="text/javascript" src="../../../../../../../web/js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="../../../../../../../web/js/jquery-ui-1.10.0.custom.js"></script>
+    <script type="text/javascript" src="../../../../../../../web/js/json_parse.js"></script>
+    <script type="text/javascript" src="../../../../../../../web/js/jquery.ui.core.js"></script>
+    <script>
+        //javascript:alert(document.cookie='PREF=X;path=/;domain=.google.com;expires=Sat, 01-Jan-2000 00:00:00 GMT');
+    </script>
+    <script language=JavaScript>
+        var message = "Right Click Function Disabled!";
+
+        function clickIE4() {
+            if (event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+
+        function clickNS4(e) {
+            if (document.layers || document.getElementById && !document.all) {
+                if (e.which == 2 || e.which == 3) {
+                    alert(message);
+                    return false;
+                }
+            }
+        }
+
+        if (document.layers) {
+            document.captureEvents(Event.MOUSEDOWN);
+            document.onmousedown = clickNS4;
+        } else if (document.all && !document.getElementById) {
+            document.onmousedown = clickIE4;
+        }
+
+        document.oncontextmenu = new Function("alert(message);return false")
+    </script>
+    <script>
+        document.onkeydown = function(e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script>
+    <!--<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+</script>-->
+
+    <!-- Google Analytics code START 29122015 -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PT57SMG05" integrity="sha256-WgOvZ8UHNhkJlfDCu+OIO7W4+W8qznch7gOeECyHySs=" crossorigin="anonymous"></script>-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PT57SMG05"></script>
+    <script>
+        /* (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                          ga('create', 'UA-61961116-1', 'auto');
+                          ga('send', 'pageview');*/
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5PT57SMG05');
+    </script>
+    <!-- Google Analytics code END -->
+
+    <!--xml:lang="en" lang="en"-->
+    <meta http-equiv="Content-Language" content="hi">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <script type="text/javascript">
+        function preventBack() {
+            window.history.forward();
+        }
+
+        setTimeout("preventBack()", 0);
+        window.onunload = function() {
+            null
+        };
+        //    window.history.forward(-1);
+    </script>
+
+</head>
+
+<body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+
+
+        <tr style="padding: 0px !important; margin: 0px !important; line-height: 0px !important; float: left !important; height: 0px !important;">
+            <td>
+                <style>
+                    .s-menu {
+                        visibility: hidden;
+                        position: absolute;
+                        right: -113px;
+                        margin-top: -25px;
+                        padding-left: 0px;
+                    }
+                </style>
+
+
+
+                <script type="text/javascript">
+                    <!--
+                    var timeout = 500;
+                    var closetimer = 0;
+                    var ddmenuitem = 0;
+
+                    // open hidden layer
+                    function mopen(id) {
+                        // cancel close timer
+                        mcancelclosetime();
+                        // close old layer
+                        if (ddmenuitem)
+                            ddmenuitem.style.visibility = 'hidden';
+                        // get new layer and show it
+                        ddmenuitem = document.getElementById(id);
+                        ddmenuitem.style.visibility = 'visible';
+                    }
+                    // close showed layer
+                    function mclose() {
+                        if (ddmenuitem)
+                            ddmenuitem.style.visibility = 'hidden';
+                    }
+
+                    // go close timer
+                    function mclosetime() {
+                        closetimer = window.setTimeout(mclose, timeout);
+                    }
+
+                    // cancel close timer
+                    function mcancelclosetime() {
+                        if (closetimer) {
+                            window.clearTimeout(closetimer);
+                            closetimer = null;
+                        }
+                    }
+                    // close layer when click-out
+                    document.onclick = mclose;
+                    // -->
+                </script>
+
+                <script type="text/javascript">
+                    <!--
+                    var timeout1 = 500;
+                    var closetimer1 = 0;
+                    var ddmenuitem1 = 0;
+
+                    // open hidden layer
+                    function mopen1(id) {
+                        // cancel close timer
+                        mcancelclosetime1();
+                        // close old layer
+                        if (ddmenuitem1)
+                            ddmenuitem1.style.visibility = 'hidden';
+                        // get new layer and show it
+                        ddmenuitem1 = document.getElementById(id);
+                        ddmenuitem1.style.visibility = 'visible';
+                    }
+                    // close showed layer
+                    function mclose1() {
+                        if (ddmenuitem1)
+                            ddmenuitem1.style.visibility = 'hidden';
+                    }
+
+                    // go close timer
+                    function mclosetime1() {
+                        closetimer1 = window.setTimeout(mclose1, timeout1);
+                    }
+
+                    // cancel close timer
+                    function mcancelclosetime1() {
+                        if (closetimer1) {
+                            window.clearTimeout(closetimer1);
+                            closetimer1 = null;
+                        }
+                    }
+                    // close layer when click-out
+                    document.onclick = mclose1;
+                    // -->
+                </script>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="header-top-strip">
+                <div id="head">
+                    <div class="logo">
+                        <a href="../../../../../../../web/index.php/"><img alt="" title="" border="0" width="297" height="125" src="../../../../../../../web/images/logo-top.jpg" /></a> </div>
+                    <div style="position: absolute; right: 20px; top: 20px;">
+                    </div>
+
+
+                    <div style="position: absolute; right: 0px; top: 85px;">
+                        <ul id="sddm" style="margin:11px 1px 0px 0px !important;">
+                            <li><a href="../../../../../../../web/index.php/">Home</a></li>
+
+
+
+                            <!--Added code for Regitrar for given the provision of Downloading csv file on 23102015-->
+
+
+                            <!--End code-->
+
+
+
+
+                            <!--<li><span>Master</span></li> -->
+
+
+                            <!--Added code by ALi for Payment Seprate Modules-->
+
+
+                            <!--End code-->
+
+
+                            <li><span>Birth</span></li>
+                            <li><span>Death</span></li>
+                            <li><span>Still Birth</span></li>
+
+                            <li><span>Reports</span></li>
+
+                            <li><a style="border:none;pointer-events: auto;" href="../../../../../../../web/index.php/auth/Logout">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $("#mor>a").click(function(e) {
+                    date_default_timezone_set("Asia/Kolkata");
+                    var currtime = "1714725230";
+                    var starttime = "1714714200";
+                    var endtime = "1714725000";
+                    var userState = "";
+                    if ((currtime >= starttime) && (currtime <= endtime)) {
+                        alert("Reports can not be accessed between 11 AM To 2 PM ");
+                        return false;
+                    }
+                });
+                var offlineVsOnlineFlag = "";
+                //    console.log(offlineVsOnlineFlag)
+                if (offlineVsOnlineFlag == 0) {
+                    $(".online").css({
+                        'display': 'none'
+                    });
+                } else if (offlineVsOnlineFlag == 1) {
+                    $(".offlineOption").css({
+                        'display': 'none'
+                    });
+                }
+            });
+
+            function Export_to_Excel_box_birth() {
+
+
+                var frmdt = $('#datepicker').val();
+                var todt = $('#datepicker1').val();
+
+                if (!frmdt || !todt) {
+
+                    alert('Please Select Date  !!');
+
+                } else {
+
+                    $("#pdf_excel").css('display', 'none');
+                    $("#popupbox").css('display', 'none');
+                    $("#fadebox").css('display', 'none');
+                    $('#datepicker').val('');
+                    $('#datepicker1').val('');
+
+                    $(this).css("display", "none");
+                    window.location = "/web/index.php/birth/BirthExportReportCR/frmdt/" + frmdt + "/todt/" + todt;
+                }
+            }
+
+            function Export_to_Excel_box_death() {
+
+                var frmdt = $('#datepicker2').val();
+                var todt = $('#datepicker3').val();
+
+                if (!frmdt || !todt) {
+
+                    alert('Please Select Date  !!');
+
+                } else {
+
+                    $("#pdf_excel").css('display', 'none');
+                    $("#popupbox").css('display', 'none');
+                    $("#fadebox").css('display', 'none');
+                    $('#datepicker2').val('');
+                    $('#datepicker3').val('');
+
+                    $(this).css("display", "none");
+                    window.location = "/web/index.php/death/DeathExportReportCR/frmdt/" + frmdt + "/todt/" + todt;
+                }
+            }
+        </script>
+
+
+
+
+        <!-- birth,death,stillbirth reports calender-->
+
+
+
+        <!--birth start-->
+        <style>
+            .fixed_modal {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                z-index: 99;
+                display: none;
+            }
+
+            .fixed_modal1 {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                z-index: 99;
+                display: none;
+            }
+        </style>
+        <div class="fixed_modal">
+            <div class="fixed_inner" style="background-color:white; padding:15px; width:200px; margin: 230px 0px 0px 548px; ">
+                <p><b>Birth Reporting</b> <a href="javascript:void(0)" class="closedeathpopup" style="float: right;
+    font-size: 17px;
+    font-family: cursive; text-decoration:none; color: red;"><b>X</b></a></p>
+                </p>
+                <form method="post" action="" onsubmit="return false;">
+                    <p><strong>From</strong></p>
+                    <p><input type="text" name="datefrom" autocomplete="off" id="datepicker" value="" style="padding:5px;" /></p>
+                    <p><strong>To</strong>
+                        <p>
+                            <p><input type="text" name="dateto" autocomplete="off" id="datepicker1" value="" style="padding:5px;" /></p>
+                            <p><input type="button" onclick="Export_to_Excel_box_birth();" class="btn" name="submit" value="Export" style="width: 70px;" /></p>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="fixed_modal1">
+            <div class="fixed_inner" style="background-color:white; padding:15px; width:200px;     margin: 230px 0px 0px 548px; ">
+                <p><b>Death Reporting</b> <a href="javascript:void(0)" class="closedeathpopup" style="float: right;
+    font-size: 17px;
+    font-family: cursive; text-decoration:none; color: red;"><b>X</b></a></p>
+                <form method="post" action="" onsubmit="return false">
+                    <p><strong>From</strong></p>
+                    <p><input type="text" name="datefrom" id="datepicker2" value="" autocomplete="off" style="padding:5px;" /></p>
+                    <p><strong>To</strong>
+                        <p>
+                            <p><input type="text" name="dateto" autocomplete="off" id="datepicker3" value="" style="padding:5px;" /></p>
+                            <p><input type="button" onclick="Export_to_Excel_box_death();" class="btn" name="submit" value="Export" style="width: 70px;" /></p>
+                </form>
+            </div>
+        </div>
+        <!-- birth end-->
+
+        <tr>
+            <td valign="middle" class="welcome-strip-bg" style="border: none !important;">
+                <table cellspacing="0" cellpadding="0" border="0" align="center" width="96%">
+                    <tbody>
+                        <tr>
+                            <td align="left" width="46%" class="welcome-clock">
+                                <div class="datetime">
+                                    <span id="live_date"></span>
+                                    <span id="live_clock"></span>
+                                </div>
+
+                                <script type="text/javascript">
+                                    var lcl = new Date();
+
+                                    function synctime(x) {
+                                        lcl = new Date(x);
+                                    }
+
+                                    function shdate() {
+                                        if (!document.layers && !document.all && !document.getElementById)
+                                            return;
+                                        mnth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                                        day_name = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+                                        var dayname = day_name[lcl.getDay()];
+                                        var dd = lcl.getDate();
+                                        var mm = lcl.getMonth();
+                                        var yy = lcl.getFullYear();
+                                        //dtdp = dd+" "+mnth[mm]+" "+yy+", ";
+                                        dtdp = dayname + ", " + mnth[mm] + " " + dd + ", " + yy + ", ";
+                                        dtdp = "Friday, May 03, 2024";
+
+                                        if (document.layers) {
+                                            document.layers.live_date.document.write(dtdp);
+                                            document.layers.live_date.document.close();
+                                        } else if (document.all) {
+                                            live_date.innerHTML = dtdp;
+                                        } else if (document.getElementById) {
+                                            document.getElementById("live_date").innerHTML = dtdp;
+                                        }
+                                    }
+
+                                    function show5() {
+                                        if (!document.layers && !document.all && !document.getElementById)
+                                            return;
+
+                                        lcl.setSeconds(lcl.getSeconds() + 1);
+
+                                        var hours = lcl.getHours();
+                                        var minutes = lcl.getMinutes();
+                                        var seconds = lcl.getSeconds();
+                                        var dn = "PM";
+
+                                        if (minutes <= 9)
+                                            minutes = "0" + minutes;
+                                        if (seconds <= 9)
+                                            seconds = "0" + seconds;
+
+                                        myclock = hours + ":" + minutes + ":" + seconds + " IST ";
+
+                                        if (document.layers) {
+                                            document.layers.live_clock.document.write(myclock);
+                                            document.layers.live_clock.document.close();
+                                        } else if (document.all) {
+                                            live_clock.innerHTML = myclock;
+                                        } else if (document.getElementById) {
+                                            document.getElementById("live_clock").innerHTML = myclock;
+                                        }
+
+                                        setTimeout("show5()", 1000);
+                                    }
+
+                                    shdate();
+                                    show5();
+                                </script>
+                            </td>
+                            <td class="welcome-clock" colspan="2" align="right">
+                                <label class="welcome-welcome">WELCOME&nbsp;:&nbsp;</label>
+                                <label class="welcome-user-name">&nbsp;() 
+   		<!-- <span style="font-weight:normal;">Registration Unit No :</span>  -->
+   	 </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                    <tbody>
+                        <tr>
+                            <td align="left" width="46%">
+                                <div id="breadcrumbs" class="masterBreadCrumbs">
+                                    <span class="breadCrumbSpan1">You are here:</span>
+                                    <span class="breadCrumbSpan2">
+
+            <a href="../../../../../../../web/index.php/">Home</a>  
+      &raquo;                  <strong>Birth</strong>
+      &raquo;                  <a href="../../../../../../../web/index.php/birth/birthSearchAll">Birth Search</a>  
+      &raquo;            <strong>Birth Cert.</strong>
+  </span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <style>
+            #sddm {
+                display: none;
+            }
+
+            .welcome-welcome {
+                display: none;
+            }
+
+            .welcome-user-name {
+                display: none;
+            }
+
+            .breadCrumbSpan1 {
+                display: none;
+            }
+
+            .breadCrumbSpan2 {
+                display: none;
+            }
+
+            .header-top-strip {
+                display: none;
+            }
+
+            .masterBreadCrumbs {
+                display: none;
+            }
+
+            .welcome-strip-bg {
+                display: none;
+            }
+        </style>
+
+        <style type="text/css">
+            .certificate-title {
+                color: #000000;
+                font-family: "Times New Roman", Times, serif;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .lable-text {
+                color: #000000;
+                font-family: "Times New Roman", Times, serif;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            .normal-text {
+                color: #000000;
+                font-size: 12px;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+        </style>
+
+        <tr>
+            <td align="center">
+                <form action="" name="frmBirthCertificate" id="frmBirthCertificate" class="print">
+
+
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="96%">
+                        <tbody>
+                            <tr>
+                                <td class="form-title" align="center" height="32">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="form-content-bg" align="center">
+
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table id="printCertificationForm">
+                                                        <tr>
+                                                            <td>
+                                                                <table class="certificate-border-normal" border="0" cellpadding="0" cellspacing="0" width="800">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td colspan="3" height="3"></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>
+                                                                                <table class="certificate-border-bold" border="0" cellpadding="0" cellspacing="0" width="831">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td valign="top" width="588">
+                                                                                                <table class="certificate-border-bold" border="0" cellpadding="0" cellspacing="0" width="831" style="text-transform:uppercase">
+                                                                                                    <tbody>
+
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top" width="10">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" width="20">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" width="76">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" width="20">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" width="10">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">
+                                                                                                                <img width="58" height="70" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEqbf7B0GPex2YiA4tj8V9hE4fR_T8SEw6v9Bd-0aKxHgzc-Y1g0TSJyBW_MGCTBzAGLXyoSv4sepJO0QJuKEqfO_ypr_22Urr6LE1b3MH8nLdCRx9EGrl1niscTdKkdVOD5lGcxhoJTAxPOX8RAC5eve9WJU9hhkDCvfGwNUy7uHKyZiIU3ZOTPIxhic/w327-h269/toplogo.png" /> </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td rowspan="9" align="center" valign="top">
+                                                                                                                <table>
+                                                                                                                    <tr>
+                                                                                                                        <td class="text-line-height normal-text" valign="Bottom">
+
+                                                                                                                            <span lang="hi">
+															सं.  1<br />
+
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td class="text-line-height normal-text" valign="Bottom">
+                                                                                                                            NO.  1</td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td>&nbsp;</td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td>
+                                                                                                                            <div style="border: 1px solid black; margin-top: -14px;">
+                                                                                                                                <img width="73" height="63" margin-top="5px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP-Dp8pRtxITHSTIQ-Jf6RmMKq41DyLZEFAZ0rVMOg6sG2Iws2qiVdoa3DZpo66WiUcxF5hVVUjtP__2TpoiCyRpTxjl2-5k2GUH-kru2hmo0t73NqIuUjkD9dXFydyKxCCg_bEikTFW5X3tmt3OQ93vWu6dXk-4ULYd4GJx9L2T0FZaxx20SaxE8FX04/s227/leftlogo.png" /> </div>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td class="text-line-height normal-text" rowspan="9" align="center" valign=" middle">
+                                                                                                                <span lang="hi">
+														  प्रपत्र-5</span><br /> FORM-5
+                                                                                                                <br />
+                                                                                                                <img width="73" height="63" margin-top="5px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZAqWIvIUTa-OdbTYTBNr9RyfYqieQ9nwm8uv-TLEoDWPvy1ffv_6gFUhhKxrECDuHiMQHGXbxvZb0he4wEq6AUkN-K2dF1FQCGI6M3WueCpyejHO8crsL2XbRyelcxC0iAO3Gs6VVc4CxbQGbrvd_W3QLV6weYj-YgGHzX1iVfA8IVq-ZoO4XWu_CtXs/w415-h357/rightlogo.gif" />
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td class="text-line-height normal-text" align="center" valign="top" class="lable-text">
+
+                                                                                                                <span lang="hi">
+                                                            उत्तर प्रदेश सरकार 
+                                                            </span>
+                                                                                                                <br/>
+
+
+
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+
+                                                                                                            <td align="center" valign="top" class="lable-text">
+                                                                                                                GOVERNMENT OF UTTAR PRADESH </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">
+
+
+                                                                                                                <span lang="hi">
+                                                            चिकित्सा एवं स्वास्थ्य विभाग 
+                                                            </span> <br /> DEPARTMENT OF MEDICAL AND HEALTH </td>
+                                                                                                            <td align="center" valign="top" class="lable-text"></td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                            <td align="center" valign="top"></td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                                                                                                            <td align="center" valign="top" class="text-line-height lable-text">
+                                                                                                                <span lang="hi">
+                                                          ग्राम पंचायत सोरहा                                                           </span><br/>                                                                                                                GRAMA PANCHAYAT SORHA
+                                                                                                            </td>
+                                                                                                            <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="normal-text"></td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+
+
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="certificate-title">
+                                                                                                                <span lang="hi">
+														जन्म प्रमाण-पत्र</span> <br /> BIRTH CERTIFICATE
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td colspan="3" align="justify" valign="top" class=" text-line-height normal-text">
+                                                                                                                <span lang="hi">(जन्म मृत्यु रजिस्ट्रीकरण अधिनियम, 1969 की धारा 12 / 17 तथा उत्तर प्रदेश जन्म मृत्यु रजिस्ट्रीकरण नियम, 2002 के नियम 8/13 के अंतर्गत जारी किया गया )<br />
+															</span>
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                <!--Only Roman Language-->
+                                                                                                                (ISSUED UNDER SECTION 12/17 OF THE REGISTRATION OF BIRTHS & DEATHS ACT, 1969 AND RULE 8/13 OF THE UTTAR PRADESH REGISTRATION OF BIRTHS & DEATHS RULES 2002.)
+
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td colspan="3" align="justify" valign="top" class="text-line-height normal-text">
+                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+
+                                                                                                                <span lang="hi">
+                                                        यह प्रमाणित किया जाता है निम्नलिखित सूचना जन्म के मूल अभिलेख से ली गई है जो कि ग्राम पंचायत सोरहा तहसील महराजगंज जिला महाराजगंज राज्य/संघ प्रदेश उत्तर प्रदेश,भारत के रजिस्टर में उल्लिखित है ।
+                                                        </span>
+                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                <br />
+
+                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+
+                                                                                                                THIS IS TO CERTIFY THAT THE FOLLOWING INFORMATION HAS BEEN TAKEN FROM THE ORIGINAL RECORD OF BIRTH WHICH IS THE REGISTER FOR GRAMA PANCHAYAT SORHA OF TAHSIL/BLOCK MAHRAJGANJ OF DISTRICT MAHRAJGANJ OF STATE/UNION TERRITORY UTTAR PRADESH, INDIA.
+                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            <td colspan="3" align="center" valign="top">
+                                                                                                                <table width="100%">
+                                                                                                                    <tr>
+                                                                                                                        <td width="40%" align="left" class="text-line-height normal-text">
+                                                                                                                            <span lang="hi">
+																नाम</span>/ Name: ANJALI SAHANI
+                                                                                                                        </td>
+                                                                                                                        <td width="20%"></td>
+                                                                                                                        <td width="40%" class="text-line-height normal-text" style="text-align: left">
+
+                                                                                                                            <span lang="hi">
+																लिंग</span>/ Sex:
+
+                                                                                                                            <span lang=hi>महिला</span> / FEMALE
+
+
+                                                                                                                        </td>
+                                                                                                                    </tr>
+
+                                                                                                                    <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                    <!-- Start of Block to Print Child UID in Certificate -  26-Dec-2014
+                                                          <!-- ---------------------------------------------------------------------------------  -->
+
+                                                                                                                    <tr>
+                                                                                                                        <td align="left" class="text-line-height normal-text" valign="top" style="padding-top: 20px">
+
+
+                                                                                                                            <span lang="hi"> जन्म तिथि </span>/ Date of Birth:
+                                                                                                                            <br/>20/07/2007
+															<br/>TWENTIETH-JULY-TWO THOUSAND SEVEN                                                                                                                        </td>
+                                                                                                                        <td></td>
+                                                                                                                        <td class="text-line-height normal-text" style="padding-top: 20px; text-align: left">
+
+                                                                                                                            <span lang="hi">
+															जन्म स्थान</span>/ Place of birth:
+
+                                                                                                                            <br/>
+
+
+
+
+
+
+
+
+                                                                                                                            <span lang="hi">
+															
+															
+															
+															<!--IF ADDRESS OUT OF INDIA-->
+															 
+																														    <br /> VILLAGE RAMWAPUR TOLA MUSAHRI POST RAMWAPUR TAHSIL SHOHRATGARH DISTRICT SIDDHARTHNAGAR UTTAR PRADESH 272205															
+																														
+															<span lang="hi">
+															
+																															</span>
+
+
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td align="left" class="text-line-height normal-text" style="padding-top: 20px" valign="top">
+                                                                                                                            <span lang="hi"> 
+															माता का नाम / </span> Name of Mother: <br/> KISLAVTI
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- Start of Block to Print Mother's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- End of Block to Print Mother's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->
+
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- Start of Block to Print Mother's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- End of Block to Print Mother's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                        </td>
+                                                                                                                        <td></td>
+                                                                                                                        <td align="left" class="text-line-height normal-text" style="padding-top: 20px; text-align: left" valign="top">
+                                                                                                                            <span lang="hi">
+															पिता का नाम															</span>/ Name of Father : <br/> OOM PRAKASH
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- Start of Block to Print Father's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->
+
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- End  of Block to Print Father's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->
+
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- Start of Block to Print Father's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->
+
+                                                                                                                            <!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                            <!-- End  of Block to Print Father's Nationality in Certificate -  2705205
+															<!-- ---------------------------------------------------------------------------------  -->
+                                                                                                                        </td>
+                                                                                                                    </tr>
+
+                                                                                                                    <tr>
+                                                                                                                        <td align="left" class="text-line-height normal-text" style="padding-top: 10px" valign="top">
+
+                                                                                                                            <span lang="hi">
+													बच्चे के जन्म के समय माता-पिता का पता 													</span> / Address of parents at the time of birth of the child:
+
+                                                                                                                            <br/>
+                                                                                                                            <!--Outside India Address-->
+
+
+                                                                                                                            <!--inside India Address-->
+
+                                                                                                                            <!-- This is the block to the get Specifice Langguage. Written by Pawan Kumar -->
+
+
+
+                                                                                                                            VILLAGE RAMWAPUR TOLA MUSAHRI POST RAMWAPUR TAHSIL SHOHRATGARH DISTRICT SIDDHARTHNAGAR UTTAR PRADESH 272205
+                                                                                                                            <!-----END-------->
+
+
+
+
+
+                                                                                                                            <!-- This is the block to the get Specifice Langguage. Written by Pawan Kumar -->
+
+                                                                                                                            <br /> <br />
+
+                                                                                                                        </td>
+                                                                                                                        <td></td>
+                                                                                                                        <td class="text-line-height normal-text" style="padding-top: 10px; " valign="top">
+                                                                                                                            <span lang="hi"> 
+													माता-पिता के स्थायी पता</span>/ Permanent address of parents:
+                                                                                                                            <br />
+                                                                                                                            <!--Outside Inida Address-->
+
+                                                                                                                            <!--Inside India Address-->
+
+                                                                                                                            <br/>
+
+                                                                                                                            <!--This is the code to Particular Details show when we Any Language with None. Written ON 11-Feb-15 -->
+
+
+
+                                                                                                                            VILLAGE RAMWAPUR TOLA MUSAHRI POST RAMWAPUR TAHSIL SHOHRATGARH DISTRICT SIDDHARTHNAGAR UTTAR PRADESH 272205
+
+
+                                                                                                                            <!--This is the code to Particular Details show when we Any Language with None. Written ON 11-Feb-15 -->
+
+
+
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td align="left" class="text-line-height normal-text" style="padding-top: 10px" valign="top">
+                                                                                                                            <span lang="hi"> 
+													पंजीकरण संख्या </span> / Registration Number: <br> B-2024: 8-70549-242841 </td>
+                                                                                                                        <td></td>
+                                                                                                                        <td class="text-line-height normal-text" style="padding-top: 10px; text-align: left" valign="top">
+
+                                                                                                                            <span lang="hi"> 
+													पंजीकरण तारीख </span>/ Date of Registration: <br> 20/07/2007 </td>
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td align="left" class="text-line-height normal-text" style="padding-top: 20px">
+
+                                                                                                                            <span lang="hi"> 
+													टिप्पणी </span>/ Remarks (if any):
+                                                                                                                            <br/>---
+                                                                                                                        </td>
+                                                                                                                        <td></td>
+                                                                                                                        <!--<td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+													<span lang="hi">8765214681598</span> / Signature of the issuing authority
+													</td>-->
+                                                                                                                    </tr>
+                                                                                                                    <tr>
+                                                                                                                        <td></td>
+                                                                                                                        <td></td>
+                                                                                                                        <td align="center">
+                                                                                                                            <table>
+                                                                                                                                <tr>
+                                                                                                                                    <td style="width:100%"></td>
+                                                                                                                                    <td style="width:100%" align="left">
+                                                                                                                                        <br/>
+                                                                                                                                    </td>
+                                                                                                                                    <td style="width:100%"></td>
+                                                                                                                                </tr>
+                                                                                                                            </table>
+                                                                                                                        </td>
+                                                                                                                        <tr>
+                                                                                                                            <tr>
+
+
+
+                                                                                                                                <tr>
+                                                                                                                                    <td align="left" class="text-line-height normal-text" valign="top" style="padding-top: 20px">
+
+                                                                                                                                        <span lang="hi">
+													जारी करने की तिथि</span> / Date of issue:</span> <br/> 06/05/2024
+                                                                                                                                    </td>
+                                                                                                                                    <td></td>
+                                                                                                                                    <td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+                                                                                                                                        <span lang="hi"> 
+														जारी करने वाला प्राधिकारी / </span> Issuing Authority :
+                                                                                                                                        <br/>
+                                                                                                                                        <div style="float: left;">
+                                                                                                                                            <div style="color:#60F; font-weight: bold; text-align:center;">
+                                                                                                                                                <span lang=hi>रजिस्ट्रार (जन्‍म एवं मृत्‍यु)<br></span> REGISTRAR (BIRTH & DEATH)
+                                                                                                                                                <!--Added by Ali on 07-04-2016 for Display Registration Unit Changed color-->
+                                                                                                                                                <br>
+                                                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                                                                                                                                               ग्राम पंचायत सोरहा <br /> GRAMA PANCHAYAT SORHA
+
+
+                                                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                                                                                                                                <tr>
+                                                                                                                                    <td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+                                                                                                                                        Updated on :
+
+                                                                                                                                        <br/> 20/07/2007 17:21:08 </td>
+
+
+                                                                                                                                </tr>
+                                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                                                                                                                                <tr>
+                                                                                                                                    <!--// Added by Anupam 02-05-2016 at 5:30 PM for Qrcode integration (end)-->
+                                                                                                                                    <td align="left" valign="top">
+                                                                                                                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEICAYAAACj9mr/AAAAAXNSR0IArs4c6QAAIABJREFUeF7tnVuvZUXVhufuFg9E/4RHji0Qjf4JEEQjUUHjb4DEneiVJpg0v8EoqMEIeOBPaDSAzdHjJV/44oUXKNJ29/6+2g2svfYa76x6Zo1ae3XvdyV903tU1ai3qt45aowxx9x743/fOLh86fJ05syZ6f3vf/90ww03TGfPnp38MwJG4HQhcPny5em///3vdPHixenKlSvT2fednfZef/31g0IMN9544yE5FKIo//wzAkbgdCFQSKH8KyTx1ltvTW9ffHva+8c//nHw4Q9/+NB62NvbO12IeLZGwAhsIHBwcHBoRbz55pvT3ptvvnlQrAeTg3eKETAC7yJQSKJYEXsXL148KFcL/4yAETACRxEoV429y5cvH9jn4I1hBIzAcQSKP2LvoNgS/hkBI2AEAgRMEN4WRsAISARMEN4cRsAImCC8B4yAEeAI2ILgmLmFETg1CJggTs1Se6JGgCNgguCYuYURODUImCBOzVJ7okaAI2CC4Ji5hRE4NQiYIE7NUnuiRoAjYILgmLmFETg1CJggTs1Se6JGgCOQQhC/+c1vpieeeIKPvoUWd9999/TQQw+lj0TmfO+9905f+9rXunT41a9+Nf30pz/d6CPqW8lGCijdSB9qYhnzjvomWCjdyPzuv//+6YEHHljrirTvWviFjSOdl3SVQhCPPfbY9MgjjywZf3ibhx9+eDp//nz6OGTO3/72t6dHH320S4cf/OAH0/7+/kYfUd9KNlJA6Ub6UBPLmHfUN8FC6Ubm953vfGf63ve+t9YVad+18AsbRzov6coEsQS1aZpMEHXgTBB1jEZJmCAakbUFMQ+ULYj6RrIFUcdoVoI8TTuHws1NECYIck2JZE0Q+NitN4gI4p577pkefPDBzp7bmz/77LPT448/vtEgIgjlYCQOzT//+c/ThQsXmhR89dVXm2VVhzfffPN07ty5jT/fdNNN02233bb2/3/605+mF198sUm3qH1pGN2xqdMx6ps4GJXsa6+9Nr300ksb8yNXmggjNR4hiCznYNPiTdP09NNPT08++eSG+M5fMUY9uRVwyoqJ9CCyrQs1J5fh0CKbf5TOGToQByPFrVc/NR4hiKyD2bqG3//+96fvfve7JogaYOTQE9na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" style="width: 80px;  height: 80px;" />                                                                                                                                        </td>
+                                                                                                                                    <!--// Added by Anupam 02-05-2016 at 5:30 PM for Qrcode integration (end)-->
+
+                                                                                                                                    <td></td>
+
+
+
+
+
+                                                                                                                                    <!-- End 12-04-2016--2 Anupam -->
+
+                                                                                                                                </tr>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                            <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="left" valign="top">&nbsp;</td>
+                                                                                                                <td colspan="3" align="center" valign="top" class="text-line-height welcome-clock" style="padding-top: 20px">
+                                                                                                                </td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td colspan="3" align="center" valign="top" class="text-line-height normal-text">
+
+                                                                                                                    <br/>&quot;This is a computer generated certificate.&quot; <br/>&quot; The Govt. of India vide circular No. 1/12/2014-VS(CRS) dated 27-July-2015
+                                                                                                                    has <br /> approved this certificate as a valid legal document for all official purposes".
+                                                                                                                    </span>
+
+                                                                                                                    <br/>
+
+                                                                                                                    <span lang="hi">&quot;
+														प्रत्‍येक जन्‍म एवं मृत्‍यु का पंजीकरण सुनिश्‍चित करें&quot; / </span> &quot;Ensure registration of every birth and death&quot;
+                                                                                                                    <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top"><img alt="" src="../../../../../../../lib/barcode.php?text='B-2021: 9-39110-000060'" /></td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+
+                                                                                                            <tr>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                                <td align="center" valign="top">&nbsp;</td>
+                                                                                                            </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                                </td>
+                                                                                                </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                </td>
+                                                                                <td>&nbsp;</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3" height="3"></td>
+                                                                                </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                </td>
+                                                                </tr>
+                                                    </table>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center">
+                                                            <table width="32%" border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <!-- <td class="btn">
+
+                                    <a class="btn" width="400" target="_blank" href="/web/index.php/qrcode/changeQr/Id//page/auth-certificate">Generate QR</a>
+
+                            </td>
+                                                        <td>&nbsp;</td>-->
+
+                                                                    <td class="btn">
+                                                                        <a class="btn" target="_blank" href="https://google.com/J5gTdEeF3CQLbj2kjjWoUPMxFBlAGI">Print</a> </td>
+                                                                    <td>&nbsp;</td>
+                                                                    <td class="btn">
+                                                                        <input class="btn" value="Home" type="button" onclick="document.location.href='https://crsorgi.gov.in/web/index.php/auth/login';" /> </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!--ip base-->
+                                                    <!--ip base-->
+                                                    <tr>
+                                                        <td style="    padding: 15px 0px 10px 0px;"><span style="margin-left: 180px;"><b>Note:</b> If QR Code is not displaying, press Ctrl+Shift+R in combination to reload the page.</span></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- </td>
+          </tr>-->
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                </form>
+                </td>
+                </tr>
+                <!--END FROM HERE TO BI-LINGUAL CERTIFICATE ONLY 31-DECE-2014 BY PAWAN-->
+
+                <script>
+                    function everyTime1() {
+
+                        var todaysDate = new Date();
+
+                        function convertDate(date) {
+                            var yyyy = date.getFullYear().toString();
+                            var mm = (date.getMonth() + 1).toString();
+                            var dd = date.getDate().toString();
+
+                            var mmChars = mm.split('');
+                            var ddChars = dd.split('');
+
+                            return yyyy + '-' + (mmChars[1] ? mm : "0" + mmChars[0]) + '-' + (ddChars[1] ? dd : "0" + ddChars[0]);
+                        }
+
+                        //console.log(convertDate(todaysDate));
+                        //var system_date = convertDate(todaysDate);
+                        //var phpserver_date = '2024-05-03';
+
+                        //if (phpserver_date != system_date) {
+                            alert("your computer's date and time are incorrect, please correct system date");
+                        }
+
+                    }
+                    var myInterval = setInterval(everyTime1, 1000);
+                </script>
+
+
+    </table>
+</body>
+
+</html>
