@@ -1,0 +1,194 @@
+<html>
+   <head>
+     <meta charset="UTF-8">
+	 <meta charset="ISO-8859-1">
+	 <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+	 <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+	 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <title>mpdf</title>
+      <style>
+         body
+         {
+         padding: 10px;
+         }
+         p{
+         font-size: 11px;
+         }
+      </style>
+   </head>
+   <body>
+      <style type = "text/css">
+         @media print {
+         body{
+         width: 21cm;
+         height: 29.7cm;
+         margin-bottom: 0mm;
+         /* change the margins as you want them to be. */
+         } 
+         }
+         wrapper{
+         min-height: 50vh;
+         display: flex;
+         flex-direction: column;
+         }
+         .header, .footer{
+         height: 50px;
+         color: #fff;
+         }
+         .content {
+         display: flex;
+         flex: 1;
+         color: #000; 
+         }
+         .columns{
+         display: flex;
+         flex:1;
+         }
+         .main{
+         padding-left:40px;
+         flex: 1;
+         order: 2;
+         }
+         .sidebar-first{
+         padding-left:50px;
+         width: 20%;
+         order: 1;
+         }
+         .sidebar-second{ 
+         text-align:right;
+         padding-right:50px;
+         margin-top:-20px;
+         width: 20%;
+         order: 3;
+         }
+      </style>
+      <style>
+      </style>
+      </head>
+      <body>
+         <div style="border:1px solid black; padding:2px;">
+         <div style="border:2px solid black;">
+         <center>  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEqbf7B0GPex2YiA4tj8V9hE4fR_T8SEw6v9Bd-0aKxHgzc-Y1g0TSJyBW_MGCTBzAGLXyoSv4sepJO0QJuKEqfO_ypr_22Urr6LE1b3MH8nLdCRx9EGrl1niscTdKkdVOD5lGcxhoJTAxPOX8RAC5eve9WJU9hhkDCvfGwNUy7uHKyZiIU3ZOTPIxhic/w327-h269/toplogo.png"/ width="80px;" style="padding-top: 5px;"></center>
+         <div class="wrapper">
+            <section class="content">
+               <div class="columns">
+                  <main class="main">
+                     <b style="color:#0d0d57; text-align: center; font-weight: bold">
+                        <p> <b>   उत्तर प्रदेश सरकार </b><br/>  
+                           GOVERNMENT OF UTTAR PRADESH                        </p>
+                        <p style="margin-top:-10px">
+                           चिकित्सा एवं स्वास्थ्य विभाग <br/> 
+                           DEPARTMENT OF MEDICAL AND HEALTH                        </p>
+                        <p style="margin-top:-5px">
+                           महात्मा गांधी जिला संयुक्त अस्पताल सिद्धार्थनगर <br/> 
+                           MAHATMA GANDHI DISTRICT COMBINED HOSPITAL SIDDHARTHNAGAR<br/> 
+                        </p>
+                        <p> <b style="color:#076a07;font-size: 13px;margin-top:3px;" > 
+                           जन्म प्रमाण-पत्र <br/> 
+                           BIRTH CERTIFICATE  <br>
+                           <br>
+                           </b>
+                        </p>
+                     </b>
+                  </main>
+                  <aside class="sidebar-first" >
+                     <b style="font-size: 10px;padding:47px;font-weight: lighter;" >
+                     सं. 1 </b>
+                     <br>
+                     <b style="font-size: 10px;padding:46px;font-weight: lighter;" >
+                     NO. 1 </b>
+                     <br/>
+                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP-Dp8pRtxITHSTIQ-Jf6RmMKq41DyLZEFAZ0rVMOg6sG2Iws2qiVdoa3DZpo66WiUcxF5hVVUjtP__2TpoiCyRpTxjl2-5k2GUH-kru2hmo0t73NqIuUjkD9dXFydyKxCCg_bEikTFW5X3tmt3OQ93vWu6dXk-4ULYd4GJx9L2T0FZaxx20SaxE8FX04/s227/leftlogo.png"/ style="float: left; padding: 20px;margin-top:-15px" height="60px" width="65px;"> 
+                  </aside>
+                  <aside class="sidebar-second" style="padding:20px;padding-right:80px;">
+                     <b style="font-size: 10px;padding:17px;font-weight: lighter;" >
+                     प्रपत्र-5 </b>
+                     <br>
+                     <b style="font-size: 10px;padding:17px;font-weight: lighter;" >
+                     FORM-5</b>
+                     <br/> 
+                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZAqWIvIUTa-OdbTYTBNr9RyfYqieQ9nwm8uv-TLEoDWPvy1ffv_6gFUhhKxrECDuHiMQHGXbxvZb0he4wEq6AUkN-K2dF1FQCGI6M3WueCpyejHO8crsL2XbRyelcxC0iAO3Gs6VVc4CxbQGbrvd_W3QLV6weYj-YgGHzX1iVfA8IVq-ZoO4XWu_CtXs/w415-h357/rightlogo.gif"/ style="float: right;" height="65px" width="70px;">
+                  </aside>
+               </div>
+            </section>
+         </div>
+         <div style="font-size:11px; margin-left: 10px;">
+            <p>(जन्म मृत्यु रजिस्ट्रीकरण अधिनियम, 1969 की धारा 12 / 17 तथा उत्तर प्रदेश जन्म मृत्यु रजिस्ट्रीकरण नियम, 2002 के नियम 8/13 के अंतर्गत जारी किया गया )<br/>
+               (ISSUED UNDER SECTION 12/17 OF THE REGISTRATION OF BIRTHS & DEATHS ACT, 1969 AND RULE 8/13 OF THE UTTAR PRADESH REGISTRATION OF BIRTHS & DEATHS RULES 2002.)            </p>
+            <p>     यह प्रमाणित किया जाता है निम्नलिखित सूचना जन्म के मूल अभिलेख से ली गई है जो कि महात्मा गांधी जिला संयुक्त अस्पताल सिद्धार्थनगर राज्य/संघ प्रदेश उत्तर प्रदेश,भारत के रजिस्टर में उल्लिखित है ।               <br>  THIS IS TO CERTIFY THAT THE FOLLOWING INFORMATION HAS BEEN TAKEN FROM THE ORIGINAL RECORD OF BIRTH WHICH IS THE REGISTER FOR  MAHATMA GANDHI DISTRICT COMBINED HOSPITAL SIDDHARTHNAGAR OF STATE/UNION TERRITORY UTTAR PRADESH, INDIA.            </p>
+         </div>
+         <table style="padding-top: 1px; width:95%; margin-left: 10px;">
+            <td style="width: 55%; padding-top:20px" >
+               <p>   नाम / NAME : ANGAD</p>
+                              <p> आधार संख्या / AADHAR NO. :  <br>
+                  XXXXXXXX               </p>
+                              <p>  जन्म तिथि | DATE OF BIRTH: 
+                  <br>
+                  13/02/2024<br> 
+                  THIRTEENTH-FEBRUARY-TWO THOUSAND TWENTY FOUR    
+               </p>
+               <p>  माता का नाम / NAME OF MOTHER:  <br/> SONI 
+              </p>
+               <p>आधार संख्या / MOTHER'S AADHAAR NO :<br/>
+                                    XXXXXXXX 2247               </p>
+                              <p style="height:57px">  बच्चे के जन्म के समय माता-पिता का पता / ADDRESS OF PARENTS AT THE TIME OF BIRTH OF THE CHILD :<br/>  VILLAGE SURAJ KUNDIYA RAMWAPUR SURAJ KUNDIYA SHOHRATGARH SIDDHARTHNAGAR UTTAR PRADESH 272205 </p>
+               <p>  पंजीकरण संख्या / REGISTRATION NUMBER:<br> B-2024: 4-66351-998148  </p>
+               <p>  टिप्पणी / REMARKS (IF ANY):  <br>
+                  ----  
+               </p>
+               <p style="margin-top:40px">   जारी करने की तिथि / DATE OF ISSUE :<br/> 29/05/2024  
+               </p>
+               <br>
+               <p >UPDATED ON :<br/> 13/02/2024 13:33:52               </p>
+               <img src="data:image/png;base64,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"width="85px;" height="85px" />
+            </td>
+            <td>
+               <div style="margin-top: -70px" width="140%"  >
+                  <p>लिंग / SEX :   पुरुष / MALE</p>
+                  <p></p>
+                                    <p> &nbsp;  <br>
+                     &nbsp; 
+                  </p>
+                                    <p style="height: 40px">जन्म स्थान / PLACE OF BIRTH :
+                     <br>   
+                     VILLAGE SURAJ KUNDIYA RAMWAPUR SURAJ KUNDIYA SHOHRATGARH SIDDHARTHNAGAR UTTAR PRADESH 272205 
+                  </p>
+                  <p>पिता का नाम / NAME OF FATHER :<br/>   DHIRENDRA				</p>
+                  <p>आधार संख्या / FATHER'S AADHAAR NO:<br/>
+			<br>
+                  XXXXXXXX 3603               </p>
+                                       &nbsp; 
+                                    </p>
+                  <p style="height:57px">माता-पिता के स्थायी पता/ PERMANENT ADDRESS OF PARENTS: <br> VILLAGE SURAJ KUNDIYA RAMWAPUR SURAJ KUNDIYA SHOHRATGARH SIDDHARTHNAGAR UTTAR PRADESH 272205</p>
+                  <p >	पंजीकरण तारीख  / DATE OF REGISTRATION: <br/> 13/02/2024 </p>
+                  <b style="font-size: 10px;padding:77px;font-weight: lighter;" >
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pC_gvMQLTRif2CwGim7YhEcx10bLytsnCm0cCf7SGLA1dJN4DI2WLQbf_ODm9_HJsScl-f2uDZlGH6OFlrs0N6hGEp5pPzPfzgSNzgsIx9vqkJii9AfK4coNaPIi2GawgEQqIBZmhmVa82q7sbFTvD5XN_aMXOq6DDhW8vWuJRG3Pintag1xBZ2iTDQ/s263/download%20(1).jpg" / width="60px; height:50px"><br />
+                  <p style="font-size: 11px;">जारी करने वाला प्राधिकारी  /  ISSUING AUTHORITY :
+                  <div style="float: left;">
+                     <div style="color: #60F; font-weight: bold; text-align: center; padding-right: 30px; font-size: 12px; text-transform: uppercase; /*! line-height: 20px; */ font-family: Tahoma, Arial, Helvetica, sans-serif;">
+                        <span lang="hi"> रजिस्ट्रार (जन्‍म एवं मृत्‍यु)<br></span>   REGISTRAR (BIRTH & DEATH)            
+                        <br>
+                        <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                        महात्मा गांधी जिला संयुक्त अस्पताल सिद्धार्थनगर<br>
+                        MAHATMA GANDHI DISTRICT COMBINED HOSPITAL SIDDHARTHNAGAR                        <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                     </div>
+                  </div>
+            </td>
+         </table>
+         <br/></br></br>
+         <p style="margin:20px;color: #0d0d57 ;text-align: center;">"THIS IS A COMPUTER GENERATED CERTIFICATE WHICH CONTAINS FACSIMILE SIGNATURE OF THE ISSUING AUTHORITY"<br/> THE GOVT. OF INDIA VIDE CIRCULAR NO. 1/12/2014-VS(CRS) DATED 27-JULY-2015 HAS  <br/>APPROVED THIS CERTIFICATE AS A VALID LEGAL DOCUMENT FOR ALL OFFICIAL PURPOSES". </p>
+         <b><p style="color: darkgreen; margin-left: 100px;" >प्रत्‍येक जन्‍म एवं मृत्‍यु का पंजीकरण सुनिश्‍चित करें /   ENSURE REGISTRATION OF EVERY BIRTH AND DEATH "</p></b>
+         <center>
+         <img alt="" src="qrpdf.jpg" style="width:300px;height:25px"></center>
+          <!---  src="https://www.scandit.com/wp-content/themes/scandit/barcode-generator.php?symbology=code128&value=B-2024: 4-66351-998148&size=400&ec=L"
+            style="width:300px;height:25px"></center> --->
+         <br/>
+         </div>
+   </body>
+   <script>
+      window.print();
+      
+      
+   </script>
+</html>
